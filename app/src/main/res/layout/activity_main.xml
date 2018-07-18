@@ -33,18 +33,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <TextView
-            style="@style/myTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        />
 
         <TextView
+            android:id="@+id/mytxtgradient"
+            android:textSize="60dp"
+            android:textStyle="bold"
             style="@style/myTextViewMediam"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:text="Gradient!"
             />
 
         <TextView
