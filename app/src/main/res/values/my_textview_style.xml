@@ -8,15 +8,44 @@
     </style>
 
     <style name="myTextViewMediam">
-        <item name="android:color">#616161</item>
-        <item name="android:textSize">26sp</item>
-        <item name="android:fontFamily">sans-serif</item>
+
+        <!--<item name="android:fontFamily">sans-serif</item>-->
+        <item name="android:fontFamily">sans-serif-condensed</item>
 
 
     </style>
-    
-    
-    
+
+
+    <!--inheritance two type -->
+
+
+    <!--<style name="MyParent" />-->
+
+    <!--explicit inheritance first way-->
+    <!--<style name="Mychild" parent="MyParent" />-->
+    <!--<Textview style"@style/Mychild"-->
+
+
+    <!--implicit inheritance second way-->
+    <!--<style name="MyChild.MyParrent" /> with dot (.)-->
+    <!--<Textview style"@style/Myparent.Mychild"-->
+
+    <!-- this is first way exmple inheritance-->
+    <style name="myTextViewMediam.myinher" >
+        <item name="android:color">#616161</item>
+        <item name="android:textSize">26sp</item>
+
+    </style>
+
+
+    <!--exmple inheritance with second way-->
+    <style name="myInherit" parent="myTextViewMediam">
+        <item name="android:color">#616161</item>
+        <item name="android:textSize">26sp</item>
+
+    </style>
+
+
     
     
     
