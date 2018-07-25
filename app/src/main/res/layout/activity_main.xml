@@ -58,14 +58,14 @@
             />
 
         <TextView
-            style="@style/myTextViewMediam.myinher"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hello World!"
             />
 
         <TextView
-            style="@style/myInherit"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hello World!"
