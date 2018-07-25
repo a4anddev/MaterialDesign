@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--transtion-->
+
+        <!--api maintain code with xml-->
+
+        <!--create new files 1 styles 2 drawable 3 values add in last -v21 examples style-v21  drawable-v21 layout-v21-->
+
+        <!--drawable-v21 to above-->
+        <!--drawable-v13 to 13 to 20 api-->
+        <!--drawable to 7 to 12 api-->
+
+        <item name="android:windowActivityTransitions">true</item>
+
+
+        <!--set by default text style here-->
+        <item name="android:textViewStyle">@style/myInherit</item>
+        <!--<item name="editTextStyle">@style/myTextViewMediam</item>-->
+        <!--<item name="buttonStyle">@style/myTextViewMediam</item>-->
+
+
+    </style>
+</resources>

@@ -17,6 +17,7 @@
 
 
         <Button
+            android:onClick="TransTest"
             android:textSize="25dp"
             android:textColor="@android:color/white"
             android:text="button test"

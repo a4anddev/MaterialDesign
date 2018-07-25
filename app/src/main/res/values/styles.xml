@@ -7,10 +7,16 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
 
+
+
+
+
         <!--set by default text style here-->
         <item name="android:textViewStyle">@style/myInherit</item>
         <!--<item name="editTextStyle">@style/myTextViewMediam</item>-->
         <!--<item name="buttonStyle">@style/myTextViewMediam</item>-->
+
+
     </style>
 
     <!--style and theme deff-->
