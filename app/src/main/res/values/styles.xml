@@ -13,4 +13,18 @@
         <!--<item name="buttonStyle">@style/myTextViewMediam</item>-->
     </style>
 
+    <!--style and theme deff-->
+
+
+<!--style-->
+    <!--applied to a particular view-->
+    <!--Example: we apply style to a button or textview or radiobutton or layouts -->
+    <!--styles are local-->
+    <!--certain attributes are only applied to view using style. eg. textsize, text color-->
+
+    <!--themes-->
+    <!--applied to whole application or activity-->
+    <!--examples we apply theme to an app or an activity-->
+    <!--thmes are global-->
+    <!--certain attributes are only applied to view using theme eg color pimar , color accent-->
 </resources>
